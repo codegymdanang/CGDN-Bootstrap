@@ -100,6 +100,9 @@ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy củ
 
 
 ```
+## Grid System
+<img width="677" alt="Screen Shot 2019-10-15 at 11 41 21 AM" src="https://user-images.githubusercontent.com/37821007/66800781-c2ffcc00-ef40-11e9-84a1-7b4813e8810d.png">
+
 
 ## Quy tắc khi thực hiện Responsive Web Design
 1. Không sử dụng các HTML element có chiều rộng cố định quá lớn - Ví dụ: Một hình ảnh có chiều rộng quá lớn so với chiều rộng của các thiết bị nhỏ thì khi hiển thị trên các thiết bị này hình ảnh sẽ bị tràn ra ngoài và cần phải cuộn ngang để xem được toàn bộ ảnh. Vì vậy, cần phải điều chỉnh hỉnh ảnh sao cho phù hợp với chiều rộng của từng thiết bị. <br>
