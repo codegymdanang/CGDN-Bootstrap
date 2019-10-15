@@ -33,7 +33,41 @@ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy củ
    ...
 </div>
 ```
+## Responsive breakpoints
++ Tuỳ vào kích thướt màn hình mà màu H3 sẽ thay đổi là đỏ , vàng , xanh , tím.
++ Nếu màn hình điện thoại sẽ là đỏ
++ Nếu tablets là vàng
++ Nếu là desktop là xanh
+```
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h3 {
+      background-color: red;
+  }
 
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h3 {
+        background-color: yellow;
+    }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h3 {
+        background-color: green;
+    }
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h3 {
+        background-color: purple;
+    }
+}
+```
 ## Quy tắc khi thực hiện Responsive Web Design
 1. Không sử dụng các HTML element có chiều rộng cố định quá lớn - Ví dụ: Một hình ảnh có chiều rộng quá lớn so với chiều rộng của các thiết bị nhỏ thì khi hiển thị trên các thiết bị này hình ảnh sẽ bị tràn ra ngoài và cần phải cuộn ngang để xem được toàn bộ ảnh. Vì vậy, cần phải điều chỉnh hỉnh ảnh sao cho phù hợp với chiều rộng của từng thiết bị. <br>
 
