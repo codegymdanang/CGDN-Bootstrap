@@ -78,6 +78,7 @@ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy củ
 + sm = small screens (tablets)
 + md = medium screens (some desktops)
 + lg = large screens (remaining desktops)
++ a div with classes **col-xs-6** and **col-sm-4** will span **half the screen on the mobile phone (xs) and 1/3 of the screen on tablets(sm)**
 ```
 <!-- 50%/50% split on extra small devices and 75%/25% split on larger devices -->
 <div class="row">
