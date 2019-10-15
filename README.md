@@ -68,6 +68,34 @@ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy củ
     }
 }
 ```
+# The Bootstrap 4 grid system has five classes:
++ .col- (extra small devices - screen width less than 576px)
++ .col-sm- (small devices - screen width equal to or greater than 576px)
++ .col-md- (medium devices - screen width equal to or greater than 768px)
++ .col-lg- (large devices - screen width equal to or greater than 992px)
++ .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
+```
+<!-- 50%/50% split on extra small devices and 75%/25% split on larger devices -->
+<div class="row">
+  <div class="col-6 col-sm-9">col-6 col-sm-9</div>
+  <div class="col-6 col-sm-3">col-6 col-sm-3</div>
+</div>
+
+<!-- 58%/42% split on extra small, small and medium devices and 66.3%/33.3% split on large and xlarge devices -->
+<div class="row">
+  <div class="col-7 col-lg-8">col-7 col-lg-8</div>
+  <div class="col-5 col-lg-4">col-5 col-lg-4</div>
+</div>
+
+<!-- 25%/75% split on small devices, a 50%/50% split on medium devices, and a 33%/66% split on large and xlarge devices. On extra small devices, it will automatically stack (100%) -->
+<div class="row">
+  <div class="col-sm-3 col-md-6 col-lg-4">col-sm-3 col-md-6 col-lg-4</div>
+  <div class="col-sm-9 col-md-6 col-lg-8">col-sm-9 col-md-6 col-lg-8</div>
+</div>
+
+
+```
+
 ## Quy tắc khi thực hiện Responsive Web Design
 1. Không sử dụng các HTML element có chiều rộng cố định quá lớn - Ví dụ: Một hình ảnh có chiều rộng quá lớn so với chiều rộng của các thiết bị nhỏ thì khi hiển thị trên các thiết bị này hình ảnh sẽ bị tràn ra ngoài và cần phải cuộn ngang để xem được toàn bộ ảnh. Vì vậy, cần phải điều chỉnh hỉnh ảnh sao cho phù hợp với chiều rộng của từng thiết bị. <br>
 
