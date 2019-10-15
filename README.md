@@ -74,6 +74,10 @@ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy củ
 + .col-md- (medium devices - screen width equal to or greater than 768px)
 + .col-lg- (large devices - screen width equal to or greater than 992px)
 + .col-xl- (xlarge devices - screen width equal to or greater than 1200px)
++ xs = extra small screens (mobile phones)
++ sm = small screens (tablets)
++ md = medium screens (some desktops)
++ lg = large screens (remaining desktops)
 ```
 <!-- 50%/50% split on extra small devices and 75%/25% split on larger devices -->
 <div class="row">
