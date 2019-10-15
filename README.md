@@ -9,9 +9,30 @@ Viewport tạm dịch là khung nhìn, là khu vực có thể nhìn thấy củ
 + Thuộc tính width=device-width đặt chiều rộng của trang web theo chiều rộng màn hình của thiết bị.
 + Thuộc tính initial-scale=1.0 thiết lập mức độ phóng ban đầu khi trang được trình duyệt tải lần đầu tiên, người dùng sẽ không thể zoom khi thuộc tính này có giá trị bằng 1
 
-
-
-
+## Container Class
++ Có 2 loại container
++ Loại container sẽ hiển thị website với giá trị fixed width (lập trình viên tự định nghĩa giá trị như sau
+```
+<style>
+         .container {
+            background: #a52c644a;
+            text-align: center;
+            padding-top: 100px;
+            padding-bottom: 100px;
+         }   
+      </style>
+```
+```
+<div class = "container">
+   ...
+</div>
+```
++ Loại container-fluid sẽ hiện thị full chiều rộng màn hình
+```
+<div class = "container-fluid">
+   ...
+</div>
+```
 
 ## Quy tắc khi thực hiện Responsive Web Design
 1. Không sử dụng các HTML element có chiều rộng cố định quá lớn - Ví dụ: Một hình ảnh có chiều rộng quá lớn so với chiều rộng của các thiết bị nhỏ thì khi hiển thị trên các thiết bị này hình ảnh sẽ bị tràn ra ngoài và cần phải cuộn ngang để xem được toàn bộ ảnh. Vì vậy, cần phải điều chỉnh hỉnh ảnh sao cho phù hợp với chiều rộng của từng thiết bị. <br>
